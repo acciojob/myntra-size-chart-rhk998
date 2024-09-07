@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+
+body{
+	font-family: Arial, sans-serif;
+}
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+} 
+th, td {  
+    border: 1px solid #000;  
+    padding: 10px;  
+    text-align: left;  
+} 
+th {  
+    background-color: #c0392b; /* Dark red for headers */  
+    color: white;  
+}  
+
+tr:nth-child(even) {  
+    background-color: #f2d7d5; /* Light red for even rows */  
+}  
+
+tr:nth-child(odd) {  
+    background-color: #f9ebea; /* Lighter red for odd rows */  
+}  
+
+tr:hover {  
+    background-color: #e74c3c; /* Darker red on hover */  
+}
